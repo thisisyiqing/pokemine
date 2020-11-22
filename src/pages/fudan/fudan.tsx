@@ -3,7 +3,7 @@ import { View, Text } from '@tarojs/components'
 import { AtCountdown } from 'taro-ui'
 import './fudan.scss'
 
-export default class Index extends Component {
+export default class fudan extends Component {
 
   //componentWillMount () { }
 
@@ -23,13 +23,13 @@ export default class Index extends Component {
     })
   }
 
-  // componentWillMount () {
-  //   let name = this.$router.params.name;
-  //   this.setState({
-  //     name: name
-  //   });
-  //   console.log(name);
-  // }
+  componentWillMount () {
+    let name = this.$router.params.name;
+    this.setState({
+      name: name
+    });
+    console.log(name);
+  }
 
   render () {
     return (

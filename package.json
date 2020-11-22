@@ -42,7 +42,7 @@
     "@tarojs/taro": "3.0.14",
     "react": "^16.10.0",
     "react-dom": "^16.10.0",
-    "taro-ui": "^2.3.4"
+    "taro-ui": "^3.0.0-alpha.3"
   },
   "devDependencies": {
     "@types/webpack-env": "^1.13.6",
@@ -60,6 +60,6 @@
     "@typescript-eslint/parser": "^2.x",
     "@typescript-eslint/eslint-plugin": "^2.x",
     "typescript": "^3.7.0",
-    "taro-ui": "^3.0.0-alpha"
+    "taro-ui": "^3.0.0-alpha.3"
   }
 }
